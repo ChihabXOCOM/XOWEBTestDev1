@@ -1,0 +1,355 @@
+/*header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  padding: 0.5rem 0.5rem;
+  justify-content: space-between;
+  width: 1728px;
+  height: 98px;
+  flex-shrink: 0;
+  background: #fff;
+  box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.1);
+}*/
+
+/*.lang {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 20px;
+  display: table-cell;
+  width: 20px;
+  height: 40px;
+  padding: 10px;
+  align: right;
+  vertical-align: middle;
+}*/
+
+/*.site-header {
+  box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.1);
+}*/
+
+/*nav {
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}*/
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap; /* navbar will go under logo on small smartphones */
+  align-items: baseline;
+  /*padding: 0.5rem 0.5rem;*/
+  /*justify-content: space-between;*/
+  width: 1728px;
+  height: 98px;
+  flex-shrink: 0;
+  background: #fff;
+  box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.1);
+}
+
+.navbar img {
+  /*padding: 25.5 2.5;*/
+  /*margin-right: 1250px;*/
+  margin-left: 324px;
+  margin-top: 32px;
+  margin-bottom: 28px;
+}
+
+.navbar button {
+  margin-right: 231.83px;
+  margin-top: -67px;
+  margin-bottom: 24px;
+  /*margin-left: 1326.17px;*/
+}
+
+.sign-up {
+  display: table-cell;
+  position: relative;
+  width: 20px;
+  height: 40px;
+  padding: 0px 85px 0px 1250px;
+  box-sizing: border-box;
+  vertical-align: middle;
+  z-index: 100;
+  min-width: 100%;
+}
+
+/*label {
+  font-family: "Alexandria", sans-serif;
+  color: solid gray;
+  /*position: relative;*/
+/*display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;*/
+/*padding: 1.25px;*/
+/*justify-content: space-between;*/
+/*}*/
+
+/* Dropdown styles */
+
+.dropdown {
+  color: solid gray;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  /*padding: 1.25px;*/
+  justify-content: space-between;
+  /*position: relative;*/
+  /*width: 100%;*/
+  width: 170px;
+  height: 50px;
+  flex-shrink: 0;
+}
+
+.dropdown-btn {
+  font-family: "Alexandria", sans-serif;
+  background: #fff;
+  font-size: 18px;
+  width: 100%;
+  border: none;
+  color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.7em 0.5em;
+  border-radius: 0.5em;
+  cursor: pointer;
+}
+
+.arrow {
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 6px solid #000;
+  transition: transform ease-in-out 0.3s;
+}
+
+.dropdown-content {
+  list-style: none;
+  position: absolute;
+  top: 3.2em;
+  width: 100%;
+  visibility: hidden;
+  overflow: hidden;
+}
+
+.dropdown-content li {
+  background: #fff;
+  border-radius: 0.5em;
+  position: relative;
+  left: 100%;
+  transition: 0.5s;
+  transition-delay: calc(60ms * var(--delay));
+}
+
+.dropdown-content.menu-open li {
+  left: 0;
+}
+
+.dropdown-content.menu-open {
+  visibility: visible;
+}
+
+.arrow.arrow-rotate {
+  transform: rotate(180deg);
+}
+
+.dropdown-content li:hover {
+  background: #000;
+}
+.dropdown-content li a:hover {
+  color: #fff;
+}
+
+.dropdown-content li a {
+  display: block;
+  padding: 0.7em 0.5em;
+  color: #000;
+  margin: 0.1em 0;
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+  background: #fbd666;
+  padding: 10px;
+  border-radius: 4px;
+  font-family: arial;
+  font-weight: 900;
+}
+
+a:link {
+  color: #605bff;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #605bff;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+/*.langmenu {
+  width: 1728px;
+  height: 98px;
+  flex-shrink: 0;
+}*/
+
+/*.langmenu img {
+  padding: 25.5 2.5;
+  margin-right: 1313px;
+  margin-left: 261px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}*/
+
+/*.droplang {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 20px;
+  width: 170px;
+  height: 50px;
+  flex-shrink: 0;
+  padding: 10px;
+  vertical-align: middle;
+  margin-right: 231.83px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}*/
+
+/*.box {
+  margin-top: 50px;
+}*/
+
+body {
+  font-family: "Alexandria", sans-serif;
+  text-align: center;
+}
+
+.parent {
+  display: flex;
+}
+
+.child {
+  flex-basis: 100%;
+  text-align: left;
+}
+.termsparent {
+  display: flex;
+}
+
+.termschild {
+  flex-basis: 10%;
+  float: left;
+  display: block;
+  overflow: hidden;
+}
+
+.accountparent {
+  display: flex;
+}
+
+.accountchild {
+  flex-basis: 78%;
+  float: left;
+  display: block;
+  overflow: hidden;
+}
+div.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+div.form {
+  padding: 30px 20px;
+  border: 1px solid #ffffff;
+  border-radius: 3px;
+  min-width: 300px;
+  label {
+    font-weight: lightbold;
+    font-size: 13px;
+    font-family: #f7f7f8 "Alexandria", sans-serif;
+  }
+  input {
+    font-family: "Alexandria", sans-serif;
+    width: 87%;
+    /*height: ;*/
+    margin: 10px 0;
+    padding: 20px 14px;
+    border-radius: 7px;
+    border: none;
+    background-color: #f7f7f8;
+  }
+  button {
+    background: linear-gradient(to bottom, #fff, #fff);
+    color: #ffffff;
+    font-family: "Alexandria", sans-serif;
+    width: 95%;
+    position: relative;
+    padding: 20px;
+    border: 1px solid transparent;
+    border-radius: 7px;
+  }
+}
+
+#goback {
+  color: #605bff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 10px;
+  border: 1px solid #605bff;
+}
+
+#createaccount {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 10px;
+  background: #605bff;
+}
+footer {
+  color: #a7a7a7;
+  display: flex;
+  flex-wrap: wrap; /* so navbar will go under logo on small smartphones */
+  align-items: baseline;
+  padding: 8.7rem;
+  justify-content: space-between;
+}
+
+/* Format the links in the footer */
+footer a:link {
+  color: #a7a7a7; /* add a contrasting color to make the links visible */
+  text-decoration: none; /* remove underlines */
+  padding: 0.5em; /* add padding to create space around the links */
+}
+
+/* Apply hover effect to the links in the footer */
+footer a:hover {
+  background-color: transparent; /* change the background color when hovering */
+  color: #000000; /* change the text color when hovering */
+}
+
+footer a:visited {
+  color: gray;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+footer a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
